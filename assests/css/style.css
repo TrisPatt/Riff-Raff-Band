@@ -19,6 +19,9 @@ body {
 header {
 background-color: red;
 }
+h1 {
+    font-family: 'Faster one', system-ui;
+}
 /* Main*/
 Main { 
     background-color: rgb(42, 165, 75);
