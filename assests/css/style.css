@@ -1,3 +1,6 @@
+/*google font imports*/
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Montserrat:wght@200;300;400;800&display=swap');
+
 /* wildcard selector to override default styles*/
 * {
     padding: 0;
@@ -18,7 +21,7 @@ background-color: red;
 /* Main*/
 Main { 
     background-color: rgb(42, 165, 75);
-    /*make the main content take up unused spce to push footer down*/
+    /*make the main content take up unused space to push footer down*/
     flex: 1 0 auto;
 }
 /*footer*/
