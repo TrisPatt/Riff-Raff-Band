@@ -135,5 +135,8 @@ Main {
     #nav-toggle {
         display: none;
     }
+    main {
+        margin-top: 65px;
+    }
 }
 
