@@ -71,5 +71,20 @@ Main {
 .social-media li {
     font-size: 160%;
     padding: 5%;
+}
+/* social media icon styles */
+#fb {
     color: blue;
+}
+#twitter {
+    color: lightblue;
+}
+#insta {
+    color: rgb(181, 30, 171);
+}
+#youtube {
+    color:#eb0e0e;
+}
+.social-media i:hover {
+    font-size: 160%;
 }
