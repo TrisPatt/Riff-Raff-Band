@@ -14,17 +14,24 @@ body {
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 }
-
 /* Header*/
 header {
-background-color: red;
+    background-color: white;
+    color: black;
+    position: fixed;
+    width: 100%;
+    padding: 0 1rem;
+    z-index: 100;
+    box-shadow: 0 5px 3px #3a3a3a;
 }
-h1 {
+#logo {
     font-family: 'Faster one', system-ui;
+    color: black;
+    text-align: center;
 }
 /* Main*/
 Main { 
-    background-color: rgb(42, 165, 75);
+    background-color: #3a3a3a;
     /*make the main content take up unused space to push footer down*/
     flex: 1 0 auto;
 }
