@@ -32,6 +32,7 @@ header a {
     text-decoration: none;
 }
 
+
 .navbar li {
     letter-spacing: 4px;
     list-style-type: none;
@@ -124,6 +125,15 @@ Main {
     .nav-toggle-label {
         font-size: 2rem;
     }
-    
-    
 }
+/* media query (above 768px) */
+@media screen and (min-width:768px) {
+
+    .nav-toggle-label {
+        display: none
+    }
+    #nav-toggle {
+        display: none;
+    }
+}
+
