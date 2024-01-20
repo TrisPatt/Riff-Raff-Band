@@ -62,3 +62,14 @@ Main {
 }
 /*footer*/
 
+.social-media {
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px 0;
+}
+.social-media li {
+    font-size: 160%;
+    padding: 5%;
+    color: blue;
+}
