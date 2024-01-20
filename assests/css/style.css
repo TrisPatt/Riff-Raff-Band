@@ -60,6 +60,7 @@ Main {
     background-color: rgb(171, 36, 36);
     /*make the main content take up unused space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 44px;
 }
 
 /*footer*/
@@ -101,10 +102,12 @@ Main {
         left: 0;
         display: none;
         top:100%;
+        box-shadow: 0 5px 3px #3a3a3a;;
     }
     
     .navbar li {
         display: flex;
+        justify-content: right;
         margin-bottom: 1em;
     }
 
