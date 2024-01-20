@@ -40,9 +40,13 @@ header a {
     display: inline-block;
 }
 
-.navbar li a :hover {
-    color:#3a3a3a;
+.navbar li a {
+    color: inherit
 }
+.navbar a:hover {
+    color: #eb0e0e;
+}
+
 #logo {
     font-family: 'Archivo Black', sans-serif;
     color: black;
