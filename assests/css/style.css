@@ -45,6 +45,7 @@ header a {
 }
 .navbar a:hover {
     color: #eb0e0e;
+    font-size: 120%;
 }
 
 #logo {
