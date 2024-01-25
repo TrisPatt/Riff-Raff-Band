@@ -81,9 +81,18 @@ Main {
     width: 300px;
     border-radius: 50%;
 }
-
-  
-
+#crix {
+    background: url(../images/crix-rainham.jpg) no-repeat center center/ cover;
+}
+#bounty {
+    background: url(../images/the-bounty.jpg) no-repeat center center/ cover;
+}  
+#spyglass {
+    background: url(../images/spyglass.webp) no-repeat center center/ cover;
+}
+#horse {
+    background: url(../images/white-horse.jpg) no-repeat center center/ cover;
+}
 /*footer*/
 .social-media {    
     display:flex;
