@@ -137,24 +137,26 @@ Main {
     border-radius: 1px;
     padding: 0 5px;
 }
-
+#contact-form {
+    border: 2px solid black;
+    padding: 25px;
+}
 .the-band {
     display: flex;
     justify-content: space-evenly;
     
 }
-#contact-form {
-    border: 2px solid black;
-    padding: 25px;
-}
-.contact-form h2 {
-    padding-bottom: 5px;
-}
-
 .the-band img {
     height: 300px;
     width: 300px;
+    /* To make the images circular*/
     border-radius: 50%;
+}
+/*Thank you page*/
+#thank-you {
+    margin-top: 10%;
+    font-size: 130%;
+    text-align: center;
 }
 
 /*footer*/
