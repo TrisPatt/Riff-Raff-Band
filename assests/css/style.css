@@ -99,49 +99,44 @@ Main {
 }
 .gigs {
     Display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;  
+    text-align:center;
+    color:white; 
+    
 }
-
 .gigs div {
+    
     height: 250px;
     width: 20%;
     border: 2px solid white;
     font-size: 120%;
+    
+    
 }
-.gigs div::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
+#back {
     width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(0, 0, 0, .4);
+    padding-top: 60px;
 }
 
 #crix {
-    background: url(../images/crix-rainham.webp) no-repeat center/ cover;
-    position:relative;
+    background: url(../images/crix-rainham.webp) no-repeat center/ cover;  
+    
 }
 
 #bounty {
-    background: url(../images/the-bounty.webp) no-repeat center/cover;
-    position: relative;
+    background: url(../images/the-bounty.webp) no-repeat center/cover;   
 }
 #spyglass {
     background: url(../images/spyglass.webp) no-repeat center/cover;
-    position: relative;
+    
 }
 #horse {
     background: url(../images/white-horse.webp) no-repeat center/cover;
-    position: relative;
+     
 }
 #queens {
     background: url(../images/queens-head.webp) no-repeat center/cover;
-    position: relative;
-}
+  }  
 
 /*gallery page*/
 #photos img {
