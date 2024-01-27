@@ -88,6 +88,17 @@ Main {
     font-size: 120%;
     background-color: rgba(0,0,0,.4);
 }
+#show {
+    display:grid;
+    flex-wrap: wrap;
+    width:100%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: justify;
+    vertical-align: center;
+    padding: 30px 130px;
+    grid-gap: 25px;   
+}
 
 #crix {
     background: url(../images/crix-rainham.webp) no-repeat center/ cover; 
