@@ -112,7 +112,21 @@ Main {
     background: url(../images/queens-head.webp) no-repeat center/cover;
 }
 
+/*gallery section*/
+
+
+#photos img {
+    line-height: 1em;
+    column-gap: 0;
+    max-width:100%;
+}
     
+#gallery {
+    column-count: 4;
+    column-gap: 0;
+    line-height:0;
+}
+
 /*footer*/
 .social-media {    
     display:flex;
@@ -179,7 +193,10 @@ Main {
         vertical-align: baseline;
         font-size: 100%;
     }
-    
+    #gallery {
+        width:100%;
+        column-count: 1;
+    }
 }
 
 /* media query (above 768px) */
