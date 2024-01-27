@@ -84,24 +84,20 @@ Main {
 .gigs {
     Display: flex;
     justify-content: center;
-    vertical-align: center;
-    
+    color: white;
+    text-align: center;     
 }
 .gigs div {
-    height:300px;
-    width:20%;
+    height: 250px;
+    width: 20%;
     border: 6px solid red;
-    background-color: rgba(0, 0, 0, .6);
-    
+    font-size: 120%;
+    background-color: rgba(0,0,0,.4);
 }
-.gigs p, h3 {
-    color: white;
-    background-color: rgba(0, 0, 0, .6);
-    text-align: center;   
-   
-}
+
 #crix {
-    background: url(../images/crix-rainham.webp) no-repeat center/cover;    
+    background: url(../images/crix-rainham.webp) no-repeat center/ cover; 
+      
 }
 #bounty {
     background: url(../images/the-bounty.webp) no-repeat center/cover;
@@ -115,6 +111,8 @@ Main {
 #queens {
     background: url(../images/queens-head.webp) no-repeat center/cover;
 }
+
+    
 /*footer*/
 .social-media {    
     display:flex;
