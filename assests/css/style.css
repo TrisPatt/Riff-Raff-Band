@@ -99,7 +99,10 @@ Main {
     padding: 30px 130px;
     grid-gap: 25px;   
 }
-
+#show i {
+    font-size:40px;
+    color: red;
+}
 #crix {
     background: url(../images/crix-rainham.webp) no-repeat center/ cover; 
       
