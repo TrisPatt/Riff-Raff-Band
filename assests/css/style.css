@@ -64,65 +64,86 @@ Main {
     display: flex;
     flex-direction: column;
 }
+/*Hero image*/
 #hero {
     height: 1200px;
     width: 100%;
     background: url(../images/riff-img3-1.webp) no-repeat center center/ cover;
 }
+/*about section*/
 #about {
     padding: 50px 130px;
     vertical-align: baseline;
     font-size: 110%;
 }
-
-.gigs {
-    Display: flex;
-    justify-content: center;
-    color: white;
-    text-align: center;     
-}
-.gigs div {
-    height: 250px;
-    width: 20%;
-    border: 6px solid red;
-    font-size: 120%;
-    background-color: rgba(0,0,0,.4);
-}
+/*Show section*/
 #show {
-    display:grid;
+    display: grid;
     flex-wrap: wrap;
-    width:100%;
+    width: 100%;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     text-align: justify;
     vertical-align: center;
     padding: 30px 130px;
-    grid-gap: 25px;   
+    grid-gap: 25px;
 }
+
 #show i {
-    font-size:40px;
+    font-size: 40px;
     color: red;
 }
-#crix {
-    background: url(../images/crix-rainham.webp) no-repeat center/ cover; 
-      
+/* upcoming gigs section*/
+#upcoming {
+    margin: 20px 0;
 }
+.gigs {
+    Display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;  
+}
+
+.gigs div {
+    height: 250px;
+    width: 20%;
+    border: 2px solid white;
+    font-size: 120%;
+}
+.gigs div::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+}
+
+#crix {
+    background: url(../images/crix-rainham.webp) no-repeat center/ cover;
+    position:relative;
+}
+
 #bounty {
     background: url(../images/the-bounty.webp) no-repeat center/cover;
+    position: relative;
 }
 #spyglass {
     background: url(../images/spyglass.webp) no-repeat center/cover;
+    position: relative;
 }
 #horse {
     background: url(../images/white-horse.webp) no-repeat center/cover;
+    position: relative;
 }
 #queens {
     background: url(../images/queens-head.webp) no-repeat center/cover;
+    position: relative;
 }
 
 /*gallery page*/
-
-
 #photos img {
     line-height: 1em;
     column-gap: 0;
