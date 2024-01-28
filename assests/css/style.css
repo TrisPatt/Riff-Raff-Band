@@ -201,6 +201,7 @@ Main {
     width: 300px;
     /* To make the images circular*/
     border-radius: 50%;
+}
 
 /*footer*/
 .social-media {    
@@ -264,9 +265,16 @@ Main {
         font-size: 2rem;
     }
     #about {
-        padding: 20px 10px;
+        padding: 20px 12px;
         vertical-align: baseline;
         font-size: 100%;
+    }
+    #show {
+        display: grid;
+        flex-wrap: wrap;
+         width: 100%;
+        grid-template-columns: 1fr;
+        padding: 30px 12px;
     }
     #gallery {
         width:100%;
