@@ -99,6 +99,7 @@ Main {
 }
 .gigs {
     Display: flex;
+    flex-wrap: wrap;
     text-align:center;
     color:white; 
     
@@ -272,10 +273,17 @@ Main {
     #show {
         display: grid;
         flex-wrap: wrap;
-         width: 100%;
+        width: 100%;
         grid-template-columns: 1fr;
         padding: 30px 12px;
     }
+    .gigs div {
+        Display: flex;
+        flex-direction: column;
+        flex-shrink: 1;
+        width: 100%;
+             
+        }
     #gallery {
         width:100%;
         column-count: 1;
