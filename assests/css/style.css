@@ -331,5 +331,9 @@ Main {
         font-size: 100%;
         height:200px;
         }
+    #gallery {
+        width: 100%;
+        column-count: 2;
+        }
 
 }
