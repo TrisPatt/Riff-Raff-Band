@@ -298,7 +298,7 @@ Main {
     }
 }
 
-/* media query (above 768x) */
+/* media query (Hide toggle */
 @media screen and (min-width:768px) {
 
     .nav-toggle-label {
@@ -310,8 +310,23 @@ Main {
     main {
         margin-top: 65px;
     }
+    
    
+}
+/* media query (lrger screens, tablets, laptops)*/
+@media screen and (min-width:768px) and (max-width:992px) {
+    #hero {
+        height: 800px;
+        object-fit: scale-down;
+    }
+    #about {
+            padding: 10px 10px;
+            }
+    
+    #show {
+            
+            padding: 10px 10px;
+    }
 
 
 }
-
