@@ -253,7 +253,7 @@ Main {
     }
 
     #logo {
-        font-size:200%;
+        font-size:250%;
     }
     /* Nav toggle */
     #nav-toggle:checked~nav {
@@ -265,10 +265,17 @@ Main {
     .nav-toggle-label {
         font-size: 2rem;
     }
+    #hero {
+        height:400px;
+        object-fit: scale-down;
+    }
+   
     #about {
         padding: 20px 12px;
         vertical-align: baseline;
         font-size: 100%;
+        text-align: justify;
+       
     }
     #show {
         display: grid;
@@ -276,6 +283,7 @@ Main {
         width: 100%;
         grid-template-columns: 1fr;
         padding: 30px 12px;
+       
     }
     .gigs div {
         Display: flex;
@@ -290,7 +298,7 @@ Main {
     }
 }
 
-/* media query (above 768px) */
+/* media query (above 768x) */
 @media screen and (min-width:768px) {
 
     .nav-toggle-label {
@@ -302,5 +310,8 @@ Main {
     main {
         margin-top: 65px;
     }
+   
+
+
 }
 
