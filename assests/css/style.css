@@ -179,6 +179,17 @@ Main {
     align-content: center;
     
 }
+.the-band {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.the-band img {
+    height: 300px;
+    width: 300px;
+    /* To make the images circular*/
+    border-radius: 50%;
+}
 
 /*Thank you page*/
 #thank-you {
@@ -192,18 +203,6 @@ Main {
     align-items: center;
     padding: 0 10%;
 }
-.the-band {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-.the-band img {
-    height: 300px;
-    width: 300px;
-    /* To make the images circular*/
-    border-radius: 50%;
-}
-
 /*footer*/
 .social-media {    
     display:flex;
@@ -245,7 +244,6 @@ Main {
         top:100%;
         box-shadow: 0 5px 3px #3a3a3a;;
     }
-    
     .navbar li {
         display: flex;
         justify-content: right;
@@ -289,12 +287,18 @@ Main {
         Display: flex;
         flex-direction: column;
         flex-shrink: 1;
-        width: 100%;
-             
-        }
+        width: 100%;  
+    }
+
+    /*gallery page*/
     #gallery {
         width:100%;
         column-count: 1;
+    }
+    /*contact us page*/
+    .the-band img {
+    height: 100px;
+    width: 100px;
     }
 }
 
@@ -334,6 +338,10 @@ Main {
     #gallery {
         width: 100%;
         column-count: 2;
+        }
+    .the-band img {
+        height: 200px;
+        width: 200px;
         }
 
 }
