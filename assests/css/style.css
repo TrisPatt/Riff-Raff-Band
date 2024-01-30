@@ -326,7 +326,7 @@ Main {
         Display: flex;
         flex-direction: column;
         flex-shrink: 1;
-        width: 100%;
+        width: 90%;
     }
 
     /*gallery page*/
