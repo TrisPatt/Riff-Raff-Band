@@ -4,9 +4,10 @@
 /* wildcard selector to override default styles*/
 * {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
+
 /* body styles*/
 body {
     min-height: 100vh;
@@ -15,9 +16,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: black;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Archivo Black', sans-serif;
 }
+
 /* Header*/
 header {
     background-color: white;
@@ -31,9 +36,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 header a {
     text-decoration: none;
 }
+
 .navbar li {
     letter-spacing: 4px;
     list-style-type: none;
@@ -42,13 +49,16 @@ header a {
     margin-right: 30px;
     display: inline-block;
 }
+
 .navbar li a {
     color: inherit
 }
+
 .navbar a:hover {
     color: #eb0e0e;
     font-size: 120%;
 }
+
 #logo {
     font-family: 'Archivo Black', sans-serif;
     color: black;
@@ -57,25 +67,28 @@ header a {
 }
 
 /* Main*/
-Main { 
+Main {
     /*make the main content take up unused space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
     display: flex;
     flex-direction: column;
 }
+
 /*Hero image*/
 #hero {
     height: 1200px;
     width: 100%;
     background: url(../images/riff-img3-1.webp) no-repeat center center/ cover;
 }
+
 /*about section*/
 #about {
     padding: 50px 130px;
     vertical-align: baseline;
     font-size: 110%;
 }
+
 /*Show section*/
 #show {
     display: grid;
@@ -93,23 +106,27 @@ Main {
     font-size: 40px;
     color: red;
 }
+
 /* upcoming gigs section*/
 #upcoming {
     margin: 20px 0;
 }
+
 .gigs {
     Display: flex;
     flex-wrap: wrap;
-    text-align:center;
-    color:white; 
-    
+    text-align: center;
+    color: white;
+
 }
-.gigs div { 
+
+.gigs div {
     height: 250px;
     width: 20%;
     border: 2px solid white;
     font-size: 110%;
 }
+
 #back {
     width: 100%;
     background-color: rgba(0, 0, 0, .5);
@@ -117,36 +134,39 @@ Main {
 }
 
 #crix {
-    background: url(../images/crix-rainham.webp) no-repeat center/ cover;  
-    
+    background: url(../images/crix-rainham.webp) no-repeat center/ cover;
+
 }
 
 #bounty {
-    background: url(../images/the-bounty.webp) no-repeat center/cover;   
+    background: url(../images/the-bounty.webp) no-repeat center/cover;
 }
+
 #spyglass {
     background: url(../images/spyglass.webp) no-repeat center/cover;
-    
+
 }
+
 #horse {
     background: url(../images/white-horse.webp) no-repeat center/cover;
-     
+
 }
+
 #queens {
     background: url(../images/queens-head.webp) no-repeat center/cover;
-  }  
+}
 
 /*gallery page*/
 #photos img {
     line-height: 1em;
     column-gap: 0;
-    max-width:100%;
+    max-width: 100%;
 }
-    
+
 #gallery {
     column-count: 4;
     column-gap: 0;
-    line-height:0;
+    line-height: 0;
 }
 
 /* contact Us page */
@@ -155,9 +175,10 @@ Main {
     margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
-    
+
 }
-.text-input {  
+
+.text-input {
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
@@ -165,20 +186,23 @@ Main {
     border-radius: 1px;
     padding: 0 5px;
 }
+
 #contact-form {
     border: 2px solid black;
     padding: 25px;
 }
+
 .submit {
     margin-top: 20px;
     border-radius: 10px;
-    padding: 15px 32px;
+    padding: 15px 30px;
     font-size: 100%;
     background-color: red;
     color: #fafafa;
     align-content: center;
-    
+
 }
+
 .the-band {
     display: flex;
     justify-content: space-evenly;
@@ -198,52 +222,61 @@ Main {
     text-align: center;
     margin-bottom: 10%;
 }
-#quad img{
-    max-width:  100%;
+
+#quad img {
+    max-width: 100%;
     align-items: center;
     padding: 0 10%;
 }
+
 /*footer*/
-.social-media {    
-    display:flex;
+.social-media {
+    display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     padding: 20px 0;
 }
+
 .social-media li {
     font-size: 160%;
     padding: 5%;
 }
+
 /* social media icon styles */
 #fb {
     color: blue;
 }
+
 #twitter {
     color: lightblue;
 }
+
 #insta {
     color: rgb(181, 30, 171);
 }
+
 #youtube {
-    color:#eb0e0e;
+    color: #eb0e0e;
 }
+
 .social-media i:hover {
     font-size: 160%;
 }
 
 /* media query (mobile phones below 768px) */
-@media screen and (max-width:768px) {
-    
+@media screen and (max-width:767px) {
+
     /* navbar styles with toggle */
     nav {
-        position:absolute;
+        position: absolute;
         background-color: white;
         width: 100%;
         left: 0;
         display: none;
-        top:100%;
-        box-shadow: 0 5px 3px #3a3a3a;;
+        top: 100%;
+        box-shadow: 0 5px 3px #3a3a3a;
     }
+
     .navbar li {
         display: flex;
         justify-content: right;
@@ -251,98 +284,113 @@ Main {
     }
 
     #logo {
-        font-size:250%;
+        font-size: 250%;
     }
+
     /* Nav toggle */
     #nav-toggle:checked~nav {
-        display:block;
+        display: block;
     }
+
     #nav-toggle {
         display: none;
     }
+
     .nav-toggle-label {
         font-size: 2rem;
     }
+
     #hero {
-        height:400px;
+        height: 400px;
         object-fit: scale-down;
     }
-   
+
     #about {
         padding: 20px 12px;
         vertical-align: baseline;
         font-size: 100%;
         text-align: justify;
-       
+
     }
+
     #show {
         display: grid;
         flex-wrap: wrap;
         width: 100%;
         grid-template-columns: 1fr;
         padding: 30px 12px;
-       
+
     }
+
     .gigs div {
         Display: flex;
         flex-direction: column;
         flex-shrink: 1;
-        width: 100%;  
+        width: 100%;
     }
 
     /*gallery page*/
     #gallery {
-        width:100%;
+        width: 100%;
         column-count: 1;
     }
+
     /*contact us page*/
     .the-band img {
-    height: 100px;
-    width: 100px;
+        height: 100px;
+        width: 100px;
     }
 }
 
 /* media query (Hide toggle) */
+
 @media screen and (min-width:768px) {
 
     .nav-toggle-label {
         display: none
     }
+
     #nav-toggle {
         display: none;
     }
+
     main {
         margin-top: 65px;
     }
-    
-   
+
+
 }
-/* media query (lrger screens, tablets, laptops)*/
+
+/* media query (larger screens, tablets, laptops)*/
 @media screen and (min-width:768px) and (max-width:992px) {
-    
+
     #hero {
         height: 800px;
         object-fit: scale-down;
     }
+
     #about {
         padding: 10px 10px;
-            }
-    
+    }
+
     #show {
         padding: 10px 10px;
     }
+
     .gigs div {
         font-size: 100%;
-        height:200px;
-        }
+        height: 200px;
+    }
+
     /*gallery page*/
     #gallery {
         width: 100%;
         column-count: 2;
-        }
+    }
+
     .the-band img {
         height: 200px;
         width: 200px;
-        }
+    }
 
 }
