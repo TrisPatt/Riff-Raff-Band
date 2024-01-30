@@ -198,7 +198,7 @@ Main {
     padding: 15px 30px;
     font-size: 100%;
     background-color: red;
-    color: #fafafa;
+    color: white;
     align-content: center;
 
 }
@@ -326,7 +326,7 @@ Main {
         Display: flex;
         flex-direction: column;
         flex-shrink: 1;
-        width: 90%;
+        width: 1090;
     }
 
     /*gallery page*/
