@@ -21,7 +21,7 @@ The aim of this site is to provide users with information into who we are, what 
 ### The hero image
 
 - The landing page displays a hero image of the band performing. This is a collage type image created in photoshop
-- This is a clear image which demonstartes in vision what the page is about
+- This is a clear image which demonstartes visually what the page is about
 
 ![Hero Image](assests/images/Screenshot-hero.webp)
 
@@ -70,7 +70,7 @@ The aim of this site is to provide users with information into who we are, what 
 - The contact form is valuable to the user as it provides with a method of contacting the band for availability and quotes
 - The form collects the name, email address of the user and the free text enquiry
 
-![Contact us](assests/images/Screenshot-contact.webp)
+![Contact us](assests/images/Screenshot-contact2.webp)
 
 ### Thank you
 
