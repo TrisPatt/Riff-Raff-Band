@@ -335,12 +335,11 @@ Main {
         display: flex;
         flex-direction: column;
         columns: 1;
-        padding: none;
     }
 
     .social-media li a i {
         font-size: 200%;
-        padding: 20px;
+        padding: 60px;
     }
 
 
