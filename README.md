@@ -113,7 +113,18 @@ The aim of this site is to provide users with information into who we are, what 
 
 ## Testing
 
+The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
+
+[WC3 Markup validator](https://validator.w3.org/)
+[w3c CSS validator](https://jigsaw.w3.org/css-validator/)
+
 ### Validation Results
+
+- Index.html
+- gallery.html
+- contact.html
+- thank-you.html
+- style.css
 
 ### Manual Testing
 
