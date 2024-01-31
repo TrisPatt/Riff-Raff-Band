@@ -284,7 +284,7 @@ Main {
         margin-bottom: 1em;
     }
 
-    logo {
+    #logo {
         font-size: 250%;
     }
 
@@ -306,7 +306,8 @@ Main {
         object-fit: scale-down;
     }
 
-    #about {
+    #about,
+    #about2 {
         padding: 20px 12px;
         vertical-align: baseline;
         font-size: 100%;
