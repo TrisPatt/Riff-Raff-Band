@@ -27,7 +27,7 @@ The aim of this site is to provide users with information into who we are, what 
 
 ### About us
 
-- The about us section is an introduction of the band describing what they are andwhat they can offer
+- The about us section is an introduction of the band describing what they are and what they can offer
 
 ![About us](assests/images/Screenshot-about.webp)
 
@@ -43,7 +43,7 @@ The aim of this site is to provide users with information into who we are, what 
 
 ### Upcoming gigs
 
-- This section provides users with information on upcoming show.
+- This section provides users with information on upcoming shows.
 - It shows the location, date and time of upcoming events
 - It also displays a background image of each venue
 
@@ -67,7 +67,7 @@ The aim of this site is to provide users with information into who we are, what 
 ### Contact Us
 
 - The contact us page displays a form and individual band member images
-- The contact form is valuable to the user as it provides with a method of contacting the band for availability and quotes
+- The contact form is valuable to the user as it provides a method of contacting the band for availability and quotes
 - The form collects the name, email address of the user and the free text enquiry
 
 ![Contact us](assests/images/Screenshot-contact2.webp)
@@ -76,9 +76,9 @@ The aim of this site is to provide users with information into who we are, what 
 
 - Once the form is submitted, the thank you page is displayed
 - This provides a reciept to the user
-- This is valuable to the user as it informs them that there request was successful and further information as to when to expect a reply
+- This is valuable to the user as it informs them that their request was successful and further information as to when to expect a reply
 
-#![Thank You](assests/images/Screenshot-thankyou.webp)
+![Thank You](assests/images/Screenshot-thankyou.webp)
 
 ## Features left to implement
 
@@ -88,12 +88,28 @@ The aim of this site is to provide users with information into who we are, what 
 
 ## Design
 
+- The main colour scheme used is black and white with hints of red that set it off to add colour and visual interest
+
+![colour pallette](assests/images/Screenshot-colour.webp)
+
+- The font used for the logo is Archivo black
+- The main font used is Montserratt
+- No wireframe software was used in the design. The design was scripted on old fashioned pen and paper
+
 ## Technologies used
 
 - HTML5
 - CSS3
 
 ## Frameworks, libraries and programs used
+
+- Gitpod - To write the code
+- Git - Version control
+- Github - Deployment and storage of files online
+- Google Fonts - To select and import fonts online
+- Am I responsive - To show a screenshot of the responsive design across multiple devices
+- Font Awesome - Providing relevant icons
+- Favicon - provides icons for the title bar
 
 ## Testing
 
