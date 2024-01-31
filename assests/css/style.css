@@ -28,7 +28,7 @@ header {
     width: 100%;
     padding: 0 1rem;
     z-index: 100;
-    box-shadow: 0 5px 3px #3a3a3a;
+    box-shadow: 0 5px 3px black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -329,6 +329,20 @@ Main {
         flex-shrink: 1;
         width: 100%;
     }
+
+    /*footer*/
+    .social-media {
+        display: flex;
+        flex-direction: column;
+        columns: 1;
+        padding: none;
+    }
+
+    .social-media li a i {
+        font-size: 200%;
+        padding: 20px;
+    }
+
 
     /*gallery page*/
     #gallery {
