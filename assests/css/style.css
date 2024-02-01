@@ -175,6 +175,8 @@ Main {
     margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
+    border: 2px solid black;
+    padding: 25px;
 }
 
 .text-input {
@@ -184,11 +186,6 @@ Main {
     border: 2px solid black;
     border-radius: 1px;
     padding: 0 5px;
-}
-
-#contact-form {
-    border: 2px solid black;
-    padding: 25px;
 }
 
 .submit {
@@ -359,9 +356,13 @@ Main {
     }
 
     /*contact us page*/
+    #contact-form {
+        margin-left: 5px;
+    }
+
     .the-band img {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
     }
 }
 
