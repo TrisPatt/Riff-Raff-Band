@@ -64,7 +64,7 @@ The aim of this site is to provide users with information into who we are, what 
 - The gallery displays images relevant to the band
 - This provides a colourful visual element
 
-![The gallery](assests/images/Screenshots/Screenshot-gallery.webp)
+![The gallery](assests/images/screenshots/Screenshot-gallery.webp)
 
 ### Contact Us
 
@@ -92,7 +92,7 @@ The aim of this site is to provide users with information into who we are, what 
 
 - The main colour scheme used is black and white with hints of red that set it off to add colour and visual interest
 
-![colour pallette](assests/images/Screenshots/Screenshot-colour.webp)
+![colour pallette](assests/images/screenshots/Screenshot-colour.webp)
 
 - The font used for the logo and headings is Archivo black
 - The main font used is Montserratt
@@ -141,9 +141,18 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ### Bugs
 
+- Bug- The background colour would not show over the image to highlight the overlay text. 
+  Fix- I fixed this by wrapping another div around the text element and applying the background colour to the text rather than the div for the image
+- Bug - The images of the band in the contact section were showing outside the screen on some screen sizes. 
+  Fix- I added the selectors to the relevant media queries and changed the size of the images so that they would show up in a row on different screen sizes
+- Bug - On testing, the lighthouse report showed a bad load time for the main LCP on the home page
+  Fix - I made the fetch priority high on the index.HTML to preload the image. This created a faster performance time
 
+### Unfixed bug
 
-## Deployment
+- No outstanding unfixed bugs
+
+  ## Deployment
 
 GitHub Pages was used to deploy live versions of the website.
 
@@ -173,3 +182,15 @@ By forking the repository, we make a copy of the original repository on our GitH
 7. Press Enter and your local clone will be created.
 
 ## Credits
+
+### Content
+
+- All content was written by the developer
+- All gallery images, contact and thank-you images are owned by the developer and the band
+- The hero image was created and is owned by the developer
+- Images in the gigs section were taken from the internet and are not owned by the developer
+  
+### Code
+
+- Readme template supplied by the code institute
+
