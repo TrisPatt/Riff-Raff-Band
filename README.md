@@ -141,11 +141,11 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ### Bugs
 
-- Bug- The background colour would not show over the image to highlight the overlay text. 
+- Bug- The background colour would not show over the image to highlight the overlay text <br>
   Fix- I fixed this by wrapping another div around the text element and applying the background colour to the text rather than the div for the image
-- Bug - The images of the band in the contact section were showing outside the screen on some screen sizes. 
+- Bug - The images of the band in the contact section were showing outside the screen on some screen sizes<br>
   Fix- I added the selectors to the relevant media queries and changed the size of the images so that they would show up in a row on different screen sizes
-- Bug - On testing, the lighthouse report showed a bad load time for the main LCP on the home page
+- Bug - On testing, the lighthouse report showed a bad load time for the main LCP on the home page <br>
   Fix - I made the fetch priority high on the index.HTML to preload the image. This created a faster performance time
 
 ### Unfixed bug
