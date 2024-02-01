@@ -120,9 +120,16 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ### Validation Results
 
-
+- HTML- No errors were returned from all pages
+- CSS- No errors returned
 
 ### Manual Testing
+
+- The website was tested on Chrome, Edge, Firefox and Safari
+- Each page was tested on a laptop, ipad mini, iphone XR and Galaxy 9
+- All links on every page were tested and work correctly
+- The form on the contact page was tested, each field contains a required field and submits correctly. The thank-you page loads on submitting the form
+- Dev tools was used to test various screem sizes
 
 ### Lighthouse Report
 
