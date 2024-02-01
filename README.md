@@ -18,20 +18,20 @@ The aim of this site is to provide users with information into who we are, what 
 - It contains black text on a white background for accessibilty reasons
 - When the user hovers over the links on the right, the text colour changes and expands the size to highlight the section
 
-![Navigation Bar](assests/images/Screenshots/Screenshot-navbar.webp)
+![Navigation Bar](assests/images/screenshots/Screenshot-navbar.webp)
 
 ### The hero image
 
 - The landing page displays a hero image of the band performing. This is a collage type image created in photoshop
 - This is a clear image which demonstartes visually what the page is about
 
-![Hero Image](assests/images/Screenshots/Screenshot-hero.webp)
+![Hero Image](assests/images/screenshots/Screenshot-hero.webp)
 
 ### About us
 
 - The about us section is an introduction of the band describing what they are and what they can offer
 
-![About us](assests/images/Screenshots/Screenshot-about.webp)
+![About us](assests/images/screenshots/Screenshot-about.webp)
 
 ### The show
 
@@ -41,7 +41,7 @@ The aim of this site is to provide users with information into who we are, what 
 - Each section has an icon above it visually showing what the section is about
 - The icons are in theme with the page colours
 
-![The show](assests/images/Screenshots/Screenshot-show.webp)
+![The show](assests/images/screenshots/Screenshot-show.webp)
 
 ### Upcoming gigs
 
@@ -49,7 +49,7 @@ The aim of this site is to provide users with information into who we are, what 
 - It shows the location, date and time of upcoming events
 - It also displays a background image of each venue
 
-![Upcoming gigs](assests/images/Screenshots/Screenshot-upcoming.webp)
+![Upcoming gigs](assests/images/screenshots/Screenshot-upcoming.webp)
 
 ### The footer
 
@@ -57,7 +57,7 @@ The aim of this site is to provide users with information into who we are, what 
 - The social media links will open in a new tab so the user can easily return to the site
 - The footer is displayed at the bottom of all pages
 
-![The Footer](assests/images/Screenshots/footer.webp)
+![The Footer](assests/images/screenshots/footer.webp)
 
 ### The gallery
 
@@ -72,7 +72,7 @@ The aim of this site is to provide users with information into who we are, what 
 - The contact form is valuable to the user as it provides a method of contacting the band for availability and quotes
 - The form collects the name, email address of the user and the free text enquiry
 
-![Contact us](assests/images/Screenshots/Screenshot-contact2.webp)
+![Contact us](assests/images/screenshots/Screenshot-contact2.webp)
 
 ### Thank you
 
@@ -80,7 +80,7 @@ The aim of this site is to provide users with information into who we are, what 
 - This provides a reciept to the user
 - This is valuable to the user as it informs them that their request was successful and further information as to when to expect a reply
 
-![Thank You](assests/images/Screenshots/Screenshot-thankyou.webp)
+![Thank You](assests/images/screenshots/Screenshot-thankyou.webp)
 
 ## Features left to implement
 
@@ -123,7 +123,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 ### Validation Results
 
 - HTML- No errors were returned from all pages
-- CSS- No errors returnd
+- CSS- No errors returned
 
 ### Manual Testing
 
