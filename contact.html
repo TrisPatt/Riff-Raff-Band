@@ -1,123 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta
-      name="desription"
-      content="riff raff, band, rock, uk, kent, medway, bands for hire">
-    <meta
-      name="keywords"
-      content="riff raff, riff raff band, live music, live bands, live bands in kent, bands for hire, rock band for hire, wedding bands in kent, Uk, kent, medway">
+    <meta name="desription" content="riff raff, band, rock, uk, kent, medway, bands for hire">
+    <meta name="keywords"
+        content="riff raff, riff raff band, live music, live bands, live bands in kent, bands for hire, rock band for hire, wedding bands in kent, Uk, kent, medway">
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet">
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <!-- Title -->
     <title>Riff Raff Band</title>
     <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assests/favicon_io/apple-touch-icon.png">
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assests/favicon_io/favicon-32x32.png">
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assests/favicon_io/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assests/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assests/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assests/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="assests/favicon_io/site.webmanifest">
     <!-- stylesheet -->
     <link rel="stylesheet" href="assests/css/style.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Header -->
     <header>
-      <a href="index.html">
-        <h1 id="logo">Riff Raff</h1>
-      </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label"
-        ><i class="fa-solid fa-bars"></i
-      ></label>
+        <a href="index.html">
+            <h1 id="logo">Riff Raff</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
 
-      <nav class="navbar">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main -->
     <main>
-      <!-- Contact Form -->
-      <section id="contact1">
-        <form id="contact-form" method="get" action="thank-you.html">
-          <h2>Conatct Us!</h2>
-          <label for="first_name">First Name</label>
-          <input
-            type="text"
-            name="first_name"
-            id="first_name"
-            class="text-input"
-            required>
-          <br>
-          <label for="last_name">Last Name</label>
-          <input
-            type="text"
-            name="last_name"
-            id="last_name"
-            class="text-input"
-            required>
-          <br>
-          <label for="email_address">Email Address</label>
-          <input
-            type="email"
-            name="email_address"
-            id="email_address"
-            class="text-input"
-            required>
-          <br>
-          <label for="enquiry">Your Enquiry</label>
-          <input
-            type="text"
-            name="enquiry"
-            id="enquiry"
-            class="text-input"
-            required>
+        <!-- Contact Form -->
+        <section>
+            <form id="contact-form" method="get" action="thank-you.html">
+                <h2>Conatct Us!</h2>
+                <br>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
+                <label for="enquiry">Your Enquiry</label>
+                <input type="text" name="enquiry" id="enquiry" class="text-input" required>
 
-          <button type="submit" class="submit">Submit</button>
-        </form>
-      </section>
+                <button type="submit" class="submit">Submit</button>
+            </form>
+        </section>
 
-      <!-- Images showing the band members-->
-      <div>
+        <!-- Images showing the band members-->
         <div>
-        <div class="the-band">
-          <div class="img1">
-            <img src="assests/images/Tristan.webp" alt="Tristan">
-          </div>
-          <div class="img2">
-            <img src="assests/images/jim.webp" alt="Jim">
-          </div>
-          <div class="img3">
-            <img src="assests/images/Alex.webp" alt="Alex">
-          </div>
-          <div class="img4">
-            <img src="assests/images/Rick.webp" alt="Rick">
-          </div>
-        </div>
-      </div>
+            <div>
+                <div class="the-band">
+                    <div class="img1">
+                        <img src="assests/images/Tristan.webp" alt="Tristan">
+                    </div>
+                    <div class="img2">
+                        <img src="assests/images/jim.webp" alt="Jim">
+                    </div>
+                    <div class="img3">
+                        <img src="assests/images/Alex.webp" alt="Alex">
+                    </div>
+                    <div class="img4">
+                        <img src="assests/images/Rick.webp" alt="Rick">
+                    </div>
+                </div>
+            </div>
     </main>
 
     <!-- Footer -->
@@ -148,9 +114,8 @@
         </ul>
     </footer>
     <!-- font awesome script-->
-    <script
-      src="https://kit.fontawesome.com/f859c94f7d.js"
-      crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f859c94f7d.js" crossorigin="anonymous">
     </script>
-  </body>
+</body>
+
 </html>

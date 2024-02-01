@@ -349,9 +349,7 @@ Main {
 
     #follow {
         font-size: 90%;
-
     }
-
 
     /*gallery page*/
     #gallery {
@@ -416,8 +414,7 @@ Main {
         height: 150px;
         width: 150px;
     }
-font-size: 80%;
-    }
+
 
 
 }
