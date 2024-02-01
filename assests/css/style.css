@@ -211,6 +211,7 @@ Main {
     width: 180px;
     /* To make the images circular*/
     border-radius: 50%;
+    padding-bottom: 10px;
 }
 
 /*Thank you page*/
@@ -345,6 +346,7 @@ Main {
         font-size: 100%;
         padding: 0px;
     }
+
 
     /*gallery page*/
     #gallery {

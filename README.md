@@ -92,9 +92,9 @@ The aim of this site is to provide users with information into who we are, what 
 
 ![colour pallette](assests/images/Screenshot-colour.webp)
 
-- The font used for the logo is Archivo black
+- The font used for the logo and headings is Archivo black
 - The main font used is Montserratt
-- No wireframe software was used in the design. The design was scripted on old fashioned pen and paper
+- No wireframe software was used in the design. The design was scripted on pen and paper
 
 ## Technologies used
 
@@ -120,11 +120,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ### Validation Results
 
-- Index.html
-- gallery.html
-- contact.html
-- thank-you.html
-- style.css
+
 
 ### Manual Testing
 
