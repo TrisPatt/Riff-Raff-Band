@@ -319,6 +319,10 @@ Main {
         padding: 30px 12px;
     }
 
+    .upcoming {
+        margin: 0px 0px;
+    }
+
     .gigs div {
         display: flex;
         flex-direction: column;
@@ -380,6 +384,10 @@ Main {
 
     #show {
         padding: 10px 10px;
+    }
+
+    .upcoming {
+        margin: 0px 0px;
     }
 
     .gigs div {
