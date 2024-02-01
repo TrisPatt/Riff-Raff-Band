@@ -80,16 +80,14 @@ Main {
 }
 
 /*about section*/
-#about {
-    padding-top: 50px;
-    padding-left: 130px;
-
-}
-
-#about2 {
-    padding: 5px 130px;
+.about {
+    padding: 50px 130px;
     vertical-align: baseline;
     font-size: 110%;
+}
+
+.about p {
+    padding-top: 5px;
 }
 
 /*Show section*/
@@ -275,7 +273,7 @@ Main {
         left: 0;
         display: none;
         top: 100%;
-        box-shadow: 0 5px 3px blacka;
+        box-shadow: 0 5px 3px black;
     }
 
     .navbar li {
@@ -306,8 +304,7 @@ Main {
         object-fit: scale-down;
     }
 
-    #about,
-    #about2 {
+    .about {
         padding: 20px 12px;
         vertical-align: baseline;
         font-size: 100%;
@@ -377,7 +374,7 @@ Main {
         object-fit: scale-down;
     }
 
-    #about {
+    .about {
         padding: 10px 10px;
     }
 
