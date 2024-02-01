@@ -137,7 +137,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 - The lighthouse report showed excellent accessibility scores across every page for mobile and desktop
   
-![Lighthouse report]p(assests/images/screenshots/desktop-home-lighthouse.webp)
+![Lighthouse report](assests/images/screenshots/desktop-home-lighthouse.webp)
 
 ### Bugs
 
