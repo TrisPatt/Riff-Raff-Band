@@ -109,8 +109,8 @@ Main {
 }
 
 /* upcoming gigs section*/
-#upcoming {
-    margin: 20px 0;
+.upcoming {
+    margin: 20px 125px;
 }
 
 .gigs {
