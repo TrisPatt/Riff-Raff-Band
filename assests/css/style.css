@@ -23,7 +23,6 @@ h3 {
 /* Header*/
 header {
     background-color: white;
-    color: black;
     position: fixed;
     width: 100%;
     padding: 0 1rem;
@@ -208,8 +207,8 @@ Main {
 }
 
 .the-band img {
-    height: 300px;
-    width: 300px;
+    height: 180px;
+    width: 180px;
     /* To make the images circular*/
     border-radius: 50%;
 }
@@ -234,11 +233,17 @@ Main {
     justify-content: space-evenly;
     list-style-type: none;
     padding: 20px 0;
+    border-top: 2px solid black;
+
 }
 
 .social-media li {
     font-size: 160%;
     padding: 5%;
+}
+
+#copyright {
+    font-size: 75%;
 }
 
 /* social media icon styles */
@@ -320,7 +325,7 @@ Main {
     }
 
     .upcoming {
-        margin: 0px 0px;
+        margin: 5px 12px;
     }
 
     .gigs div {
@@ -333,13 +338,12 @@ Main {
     /*footer*/
     .social-media {
         display: flex;
-        flex-direction: column;
-        columns: 1;
+        flex-wrap: wrap;
     }
 
     .social-media li a i {
-        font-size: 200%;
-        padding: 60px;
+        font-size: 100%;
+        padding: 0px;
     }
 
     /*gallery page*/
@@ -387,7 +391,7 @@ Main {
     }
 
     .upcoming {
-        margin: 0px 0px;
+        margin: 5px 12px;
     }
 
     .gigs div {
