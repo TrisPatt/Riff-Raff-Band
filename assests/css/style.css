@@ -347,6 +347,11 @@ Main {
         padding: 0px;
     }
 
+    #follow {
+        font-size: 90%;
+
+    }
+
 
     /*gallery page*/
     #gallery {
@@ -408,7 +413,11 @@ Main {
     }
 
     .the-band img {
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
     }
+font-size: 80%;
+    }
+
+
 }
