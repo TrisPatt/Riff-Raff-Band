@@ -2,9 +2,9 @@
 
 Riff Raff are a rock covers band from the UK, playing venues across Kent and beyond. They play pubs and clubs and can be hired for private events.
 
-The aim of this site is to provide users with information into who we are, what we do, what we can provide as a service and when we are playing next. There is also a page wherethey can make enquiries.
+The aim of this site is to provide users with information into who we are, what we do, what we can provide as a service and when we are playing next. There is also a page where they can make enquiries.
 
-[Riff Raff Home Page](https://trispatt.github.io/Riff-Raff-Band/index.html)
+Please click the link to visit the page: [Riff Raff Home Page](https://trispatt.github.io/Riff-Raff-Band/index.html)
 
 ![Screenshot overview](assests/images/screenshots/Screenshot-overview.webp)
 
